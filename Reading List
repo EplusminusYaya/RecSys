@@ -1,2 +1,9 @@
 2018-11-11: https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429
             https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-2-d9b96aa399f5
+            
+            Awareness: the extent that members are aware of how RS are adapting to their tastes;
+            Fressness (新颖性）：给用户推荐那些他们以前没有听说过的物品，但这个物品和用户的历史兴趣不相似；
+            Serendipity（惊喜度）：如果推荐结果和用户的历史兴趣不相似，但却让用户觉得满意，那么可以说推荐结果的惊喜度很高；
+            
+            Data and models are important for creating an optimal personalized experience for customers;
+            Enlarge data sources, better feature representations, more appropriate models and metrics
