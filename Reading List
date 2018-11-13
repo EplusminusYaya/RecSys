@@ -23,4 +23,4 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
 2018-11-13: 实现数据预处理代码
             train_set['customer_day_order'] = train_set.groupby(['customer_id'])['days_since_start'].rank(ascending=1, method='dense')
             见 https://blog.csdn.net/qq_22238533/article/details/72395564
-            pickle 不能加载大的 dataframe
+            pickle 不能加载大的 dataframe，可以用 hdf
