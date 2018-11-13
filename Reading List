@@ -11,4 +11,16 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
             Serendipity（惊喜度）：如果推荐结果和用户的历史兴趣不相似，但却让用户觉得满意，那么可以说推荐结果的惊喜度很高；
             
             Data and models are important for creating an optimal personalized experience for customers;
-            Enlarge data sources, better feature representations, more appropriate models and metrics
+            Enlarge data sources, better feature representations, more appropriate models and metrics;
+            Another a important factor is computing（计算力）；
+            
+2018-11-12: 1：PKU 基于协同过滤算法的博士论文的第一章以及第二章；
+            CF 算法分为两类：一类是基于内存(memory-based) 的算法：利用用户或产品的邻居信息来获得推荐，比如 kNN 模型；
+                            第二类是基于模型(model-based) 的算法: 利用已知评分训练一个预测模型，然后利用预测模型获得预测评分进而产生最终的推荐列表，
+                                                                比如分类聚类模型，贝叶斯图模型以及因子模型；
+            2：Paper: 2019-The BellKor Solution to the Netflix Grand Prize
+            
+2018-11-13: 实现数据预处理代码
+            train_set['customer_day_order'] = train_set.groupby(['customer_id'])['days_since_start'].rank(ascending=1, method='dense')
+            见 https://blog.csdn.net/qq_22238533/article/details/72395564
+            pickle 不能加载大的 dataframe
