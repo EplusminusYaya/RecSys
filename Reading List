@@ -25,3 +25,5 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
             见 https://blog.csdn.net/qq_22238533/article/details/72395564
             pickle 不能加载大的 dataframe，可以用 hdf
 2018-11-14: 继续写数据预处理代码
+
+            mac chrome 退出全屏：shift + command + B
