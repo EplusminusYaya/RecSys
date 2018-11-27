@@ -38,3 +38,6 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
             因此，线程之间共享数据最大的危险在于多个线程同时改一个变量，把内容给改乱了。‘
 2018-11-26： 1：BP1-pred: RMSE: 0.9846；
              2：BP1-pred + item-based KNN: 0.9418, gamma = 100, K = 20。
+
+2018-11-27: 1: neighborhood relation model (the values of parameter w are unconstrained) : 0.9223
+            2: neighborhood relation model
