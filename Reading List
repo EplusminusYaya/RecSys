@@ -40,4 +40,4 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
              2：BP1-pred + item-based KNN: 0.9418, gamma = 100, K = 20。
 
 2018-11-27: 1: neighborhood relation model (the values of parameter w are unconstrained) : 0.9223
-            2: neighborhood relation model
+            2: neighborhood relation model (the values of parameter w both >= 0): 0.9212
