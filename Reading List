@@ -43,6 +43,6 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
             2: neighborhood relation model (the values of parameter w both >= 0): 0.9212
 
 
-2019-2-18: graph-based recommendation，利用上下文信息（时间演化和地点）的推荐，衡量推荐系统的 metric
+2019-2-18: graph-based recommendation，利用上下文信息（比如时间地点）的推荐，衡量推荐系统的 metric，time-dependent model，long-tail recommendation
             Data and models are important for creating an optimal personalized experience for customers;上下文
             Data and models are important for creating an optimal personalized experience for customers;
