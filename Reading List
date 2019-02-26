@@ -47,6 +47,8 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
             graph-based recommendation，利用上下文信息（比如时间地点）的推荐，衡量推荐系统的 metric，time-dependent model，
             long-tail recommendation(novelty / serendipity) (corresponding phd thesis)
             
+            神经网络参数初始化；推荐系统的 metric
+            
             深度学习在推荐系统的应用-> 精读 the paper of cf beyond the U-I matrix (忽略基于图和社交推荐）-> java -> librec 算法 
             -> 深度强化学习 -> hadoop
             
