@@ -52,3 +52,6 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
             深度学习在推荐系统的应用-> 精读 the paper of cf beyond the U-I matrix (忽略基于图和社交推荐）-> java -> librec 算法 
             -> 深度强化学习 -> hadoop
             
+2019-3-7: Another way to represent categorical columns to feed into a neural network is via a one-hot or multi-hot representation. 
+          This is often appropriate for categorical columns with only a few possible values.
+          (https://docs.w3cub.com/tensorflow~guide/tutorials/wide_and_deep/)
