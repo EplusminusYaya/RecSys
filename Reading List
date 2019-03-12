@@ -55,3 +55,6 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
 2019-3-7: Another way to represent categorical columns to feed into a neural network is via a one-hot or multi-hot representation. 
           This is often appropriate for categorical columns with only a few possible values.
           (https://docs.w3cub.com/tensorflow~guide/tutorials/wide_and_deep/)
+          
+          dnnlinearcombined: /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/estimators
+          
