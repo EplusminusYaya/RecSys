@@ -57,4 +57,9 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
           (https://docs.w3cub.com/tensorflow~guide/tutorials/wide_and_deep/)
           
           dnnlinearcombined: /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/estimators
+2019-3-16: train_iterator = dataset.make_initializable_iterator()
+
+           每一次 sess.run()，train_iterator 将会更新一次，新的 batch 将会被 loaded。
+           如果不想 train_iterator 更新，可以用 sess.w.eval() 这样的语句
+
           
