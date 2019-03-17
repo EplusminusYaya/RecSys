@@ -57,10 +57,19 @@ Paper of Deep learning-based RS (https://arxiv.org/pdf/1707.07435.pdf)【仔细�
           (https://docs.w3cub.com/tensorflow~guide/tutorials/wide_and_deep/)
           
           dnnlinearcombined: /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/estimators
+          
 2019-3-16: train_iterator = dataset.make_initializable_iterator() (需要sess.run(train_iterator.initializer))
            train_iterator = dataset.make_one_shot_iterator() (不需要sess.run(train_iterator.initializer)）
 
            每一次 sess.run()，train_iterator 将会更新一次，新的 batch 将会被 loaded。
            如果不想 train_iterator 更新，可以用 sess.w.eval() 这样的语句
+
+2019-3-17: 对 m_id 进行 embedding （使用的是tf.feature_column.input_layer），
+           变量名就变为了 <tf.Variable 'input_layer/m_id_embedding/embedding_weights:0'
+           
+           类比于 <tf.Variable 'deep_weights_bias/W0:0'> ：这里，deep_weights_bias 是变量作用域名(tf.variable_scope('deep_weights_bis'))，
+           W0 是变量名 (tf.Variable(name='W0'))
+           
+           
 
           
